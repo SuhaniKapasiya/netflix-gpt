@@ -1,11 +1,12 @@
 # Netflic GPT
-
 - create React App
 - configure tailwind Css
+- Header
+-Login form
 
 # Features
-- Login/Sign UP
-- redirect to Browse Page
+  - Login/Sign UP
+  - redirect to Browse Page
 - Browes Page (after authentication)
    -Header
    -Main Movie
