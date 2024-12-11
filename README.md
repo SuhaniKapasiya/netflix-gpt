@@ -9,7 +9,10 @@
 - useRef Hook
 - Firebase Setup
 - Deploying our app to production
-
+- create SignUp User Account
+- Ceated Redux Store with userSlice
+- Implemented Sign out
+- Update Profile 
 # Features
   - Login/Sign UP
   - redirect to Browse Page
