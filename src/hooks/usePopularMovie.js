@@ -8,15 +8,12 @@ const usePopularMovie = () => {
 
   const getPopularMovies = async () => {
     try {
-      const response = await fetch(
-        "https://api.themoviedb.org/3/movie/popular",
-        APIOPTIONS
-      );
+      const response = await fetch("https://api.themoviedb.org/3/movie/popular", APIOPTIONS);
       if (!response.ok) {
         throw new Error(`Error: ${response.statusText}`);
       }
       const data = await response.json();
-      console.log("getPopularMovies--------------->", data);
+      // console.log("getPopularMovies--------------->", data);
 
       dispatch(addPopularMovies(data.results));
     } catch (error) {
@@ -26,7 +23,7 @@ const usePopularMovie = () => {
 
   useEffect(() => {
     getPopularMovies();
-  }, []); 
+  }, []); // Include dispatch as a dependency
 };
 
 export default usePopularMovie;
