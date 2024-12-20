@@ -15,3 +15,7 @@ export const URL =
         "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzIzODRmZGI5YWJiNzRhNDE1NzY1OTg5M2JkN2EwMyIsIm5iZiI6MTczNDAxMDcwOC4xMzc5OTk4LCJzdWIiOiI2NzVhZTc1NGM3ZDNmMmY5M2UxMmY3YWUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.zISY995uE9P7baU2Ds_Wk-zuperSSbM-WznWQBKA-O4",
     },
   };
+
+
+
+  export const IMG_CON_URL = "https://image.tmdb.org/t/p/w200";

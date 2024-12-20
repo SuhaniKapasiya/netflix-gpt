@@ -2,12 +2,14 @@ import useNowPlayingMovie from "../hooks/useNowPlayingMovies"
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 import Header from "./Header";
+import usePopularMovie from "../hooks/usePopularMovie";
 
 
  
 const Browse = () =>{
 
       useNowPlayingMovie();
+      usePopularMovie();
 
     return (
       <div className="">
