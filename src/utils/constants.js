@@ -19,3 +19,5 @@ export const URL =
 
 
   export const IMG_CON_URL = "https://image.tmdb.org/t/p/w200";
+
+  export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/ce449112-3294-449a-b8d3-c4e1fdd7cff5/web/IN-en-20241202-TRIFECTA-perspective_0acfb303-6291-4ad1-806f-dda785f6295a_small.jpg"

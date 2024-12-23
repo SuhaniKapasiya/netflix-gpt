@@ -27,6 +27,13 @@
 - Update Store with Trailer Vedio Data 
 - Embeded the Youtube video and make it autoplay and mute 
 - Tailwind  Classes to make Main Container to  look awesome
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CON URL
+- Made Browser page amazing with Tailwind CSS
+- usePopular ,useTopRated , useUpcoming Movies custom Hook
+
 
 
 # Features
