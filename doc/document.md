@@ -1,0 +1,51 @@
+# Netflic GPT
+- create React App
+- configure tailwind Css
+- Header
+- Routing of app
+- Login form
+- Sign up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to production
+- create SignUp User Account
+- Ceated Redux Store with userSlice
+- Implemented Sign out
+- Update Profile 
+- BugFix : Sign up user displayName  and profile picture update 
+- BugFIx : if the user is not logged in Redirect /browse to login Page vice- versa
+- Unsubscribeed to the onAuthStateChanged callback
+- Add Hardcoded value to constant file 
+- Register TMDB API & create an app & get access token
+- Get Data from TMDB  now playing movie list API 
+- Custom Hook for now Playing Movies
+- create movieSlice
+- Update Store with movie Data 
+- Planning for MainContainer & Secondary container
+- Fetch Data for Trailer Video
+- Update Store with Trailer Vedio Data 
+- Embeded the Youtube video and make it autoplay and mute 
+- Tailwind  Classes to make Main Container to  look awesome
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CON URL
+- Made Browser page amazing with Tailwind CSS
+- usePopular ,useTopRated , useUpcoming Movies custom Hook
+
+
+
+# Features
+  - Login/Sign UP
+  - redirect to Browse Page
+- Browes Page (after authentication)
+   -Header
+   -Main Movie
+      - Tailer in Background
+      - Tittle and Discription
+      - Movie Suggestions
+          - MovieList * N
+- NetflixGPT
+   -Search Bar
+   -Movie Suggestions
