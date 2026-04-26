@@ -23,6 +23,7 @@ const usePopularMovie = () => {
 
   useEffect(() => {
     getPopularMovies();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Include dispatch as a dependency
 };
 
